@@ -1,6 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
+void SayHello() {
+    printf("Hello User1\n");
+}
+
+
+void HelloTo(char name[]) {
+    printf("Hello %s\n", name);
+}
+
+//Here we just reference the function but its actually declared in line 32
+void HelloTo_extra();
+
 int main() {
 
     printf("Calling function\n");
@@ -16,15 +29,6 @@ int main() {
     return 0;
 }
 
-void SayHello() {
-    printf("Hello User1\n");
-}
-
-void HelloTo(char name[]) {
-    printf("Hello %s\n", name);
-}
-
 void HelloTo_extra(char name[], int age) {
     printf("Hello %s, you are %d\n", name, age );
 }
-
