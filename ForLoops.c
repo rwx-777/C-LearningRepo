@@ -18,5 +18,13 @@ int main() {
         printf("%d\n", luckyNumbers[j]);
     }
 
+    //Lets use nested For Loops yeet
+    int x,y;
+    for(x=0; x < 3; x++){
+        for(y=0; y < 2; y++){
+            printf("testing For Loop");
+        }
+    }
+
     return 0;
 }
