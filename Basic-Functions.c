@@ -12,7 +12,8 @@ void HelloTo(char name[]) {
 }
 
 //Here we just reference the function but its actually declared in line 32
-void HelloTo_extra();
+//its called prototyping
+void HelloTo_extra(char name[], int age);
 
 int main() {
 
